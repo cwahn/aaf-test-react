@@ -7,7 +7,7 @@ export default function App() {
     <div className="app">
       <h1>AAF Test App</h1>
       <p>Served from GitHub via browser-native dev server.</p>
-      <button onClick={() => setCount((c) => c + 1)}>Count: {count}</button>
+      <button onClick={() => setCount((c) => c + 5)}>Count: {count}</button>
     </div>
   );
 }
